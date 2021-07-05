@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url(../images/bg-header-mobile.png);
+    background-size: cover;
+    background-position: center;
+    height: 55vh;
+
+         
+    @media only screen and (max-width: $bp-largest) {
+       height: 100vh;
+     }
+
+    @media (min-width: 600px) {
+        background-image: url(../images/bg-header-desktop.png);
+
+    }
+    
+    &__logo {
+      margin-top: 10rem;
+      margin-bottom: 3rem;
+      width: 8.5rem;
+
+        
+      @media only screen and (max-width: $bp-medium) {
+        width: 12rem;
+     }
+    }
+
+    &__heading-1 {
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        
+        @media only screen and (max-width: $bp-smallest) {
+           width: 26rem;
+           margin-top: 6rem;
+        }
+    }
+
+    &__paragraph {
+        width: 60rem;
+
+        @media only screen and (max-width: $bp-largest) {
+            width: 55rem;
+         }
+
+         @media only screen and (max-width: $bp-largest) {
+            width: 26rem;
+         }
+    }
+}

@@ -1,0 +1,139 @@
+.features {
+    margin-top: 6rem;
+    text-align: center;
+  
+
+    &__heading-2 {
+        margin-bottom: 2rem;
+       
+        margin: auto;
+        
+    }
+    &__paragraph {
+
+        margin-bottom: 3rem;
+        @media only screen and (max-width: $bp-smallest) {
+            width: 26rem;
+            margin: auto;
+            margin-bottom: 3rem;
+        }
+
+        @media only screen and (max-width: $bp-largest) {
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+  
+    align-items: center;
+    justify-content: center;
+
+    &__feature {
+        width: 37rem;
+        margin: auto;
+
+        @media only screen and (max-width: $bp-largest) {
+            margin-top: 1.5rem;
+          }
+        @media only screen and (max-width: $bp-medium) {
+              margin-top: 1.5rem;
+            }
+
+            &--p {
+                width: 36rem;
+                margin-bottom: 2rem;
+
+                @media only screen and (max-width: $bp-medium) {
+                    width: 27rem;
+                  }
+            }
+
+           
+
+            &--h3 {
+                margin-top: 2.5rem;
+            }
+    }
+}
+
+.companies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+
+    @media only screen and (max-width: $bp-smallest) {
+        flex-direction: column;
+        align-items: center;
+    }
+    &__logos {
+        width: 10%;
+        height:10%;
+
+        @media only screen and (max-width: $bp-smallest) {
+            width: 25%;
+            height: 25%;
+        }
+
+        &--2 {
+            @media only screen and (max-width: $bp-smallest) {
+                margin-top: 6.5rem;
+            }
+        }
+
+        &--3 {
+            @media only screen and (max-width: $bp-smallest) {
+                margin-top: 6.5rem;
+            }
+        }
+
+        &--4 {
+            @media only screen and (max-width: $bp-smallest) {
+                margin-top: 6.5rem;
+            }
+        }
+
+        &--5 {
+            @media only screen and (max-width: $bp-smallest) {
+                margin-top: 6.5rem;
+            }
+        }
+    }
+}
+
+//Download section
+.download {
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+    text-align: center;
+
+    &__heading-2 {
+        margin-bottom: 1.5rem;
+
+        
+        @media only screen and (max-width: $bp-smallest) {
+            width: 20rem;
+         }
+
+    }
+    &__paragraph {
+        width: 70rem;
+
+        @media only screen and (max-width: $bp-largest) {
+            width: 55rem;
+         }
+
+         @media only screen and (max-width: $bp-smallest) {
+            width: 26rem;
+         }
+    }
+}
+
+
